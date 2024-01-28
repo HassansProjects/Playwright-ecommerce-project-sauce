@@ -15,9 +15,6 @@ test('Log in to Home Page', async ({ page }) => {
   await page.locator('[data-test="login-button"]').click();
   await page.waitForLoadState('load');
   await expect(page.locator('#header_container')).toContainText('Swag Labs');
-  
- //test main  wswitched to main and will push to main
 
-  
 
 });
